@@ -60,7 +60,6 @@ def predict():
     LOG.info("Inference payload DataFrame: \n%s", inference_payload)
     # scale the input
     scaled_payload = scale(inference_payload)
-    LOG.info("Scaled payload: \n%s", scaled_payload)
     # get an output prediction from the pretrained model, clf
     prediction = list(clf.predict(scaled_payload))
     LOG.info("Model prediction: \n%s", prediction)

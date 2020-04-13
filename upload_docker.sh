@@ -5,7 +5,6 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
 dockerpath=laviniak/udacity-ml
 
 # Step 2:  
