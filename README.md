@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![lavinia-k](https://circleci.com/gh/lavinia-k/udacity-ml.svg?style=svg)](https://app.circleci.com/pipelines/github/lavinia-k/udacity-ml)
 
 ## Project Overview
 
