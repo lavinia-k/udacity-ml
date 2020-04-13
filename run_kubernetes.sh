@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-# This tags and uploads an image to Docker Hub
+# This runs a Docker container on Kubernetes
+
+# Assumes that an image is built and tagged via `upload_docker.sh`
 
 # Step 1:
 # This is your Docker ID/path
 dockerpath=laviniak/udacity-ml
 
 # Step 2
-# Run the Docker Hub container with kubernetes
+# Run the Docker container with kubernetes
 kubectl run udacity-ml-app --image=$dockerpath --port=80
 
 # Step 3:

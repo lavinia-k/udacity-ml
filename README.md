@@ -38,8 +38,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+3. Tag and upload Docker image: `./upload_docker.sh`
+4. Run in Kubernetes:  `./run_kubernetes.sh`
 
 ### Calling API
 
-1. Once you have the API running (whether through Docker or Kubernetes), you can run `./make_prediction.sh` to make a call to the API on port 8000.
+1. Once you have the API running (whether through Docker or Kubernetes), you can run `./make_prediction.sh` in a separate terminal tab to make a call to the API on port 8000.
