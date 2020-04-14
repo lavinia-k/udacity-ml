@@ -6,3 +6,11 @@ udacity-ml-app-56866b59b7-8995l   1/1     Running   1          13m
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+---
+Lavinia-MacBook-Pro:project-ml-microservice-kubernetes lavinia$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
